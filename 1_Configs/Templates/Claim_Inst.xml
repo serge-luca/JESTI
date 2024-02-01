@@ -1,0 +1,745 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<echcf:Claim xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:echcf="http://xml.edifecs.com/schema/ECHCF" xmlns:ucf="http://xml.edifecs.com/schema/UCF" xmlns:ucfd="http://xml.edifecs.com/schema/UCFD" xmlns:hcfd="http://xml.edifecs.com/schema/HCFD" version="1.1.1.4" change="UNCHANGED">
+	<echcf:Packaging change="UNCHANGED">
+		<ucf:Property name="ContractID" value="ContractID" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="DestinationID" value="00005" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="SenderID" value="S-KS Source" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="ReceiverID" value="S-KS" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="OriginatorID" value="00005" valueType="STRING" change="UNCHANGED"/>
+		<ucfd:PackageID value="1420160530" change="UNCHANGED"/>
+		<ucfd:Source value="CLPMAONTEST1" change="UNCHANGED"/>
+		<ucfd:MessageProtocolInfo change="UNCHANGED">
+			<ucfd:Protocol value="CSV" change="UNCHANGED"/>
+		</ucfd:MessageProtocolInfo>
+	</echcf:Packaging>
+	<echcf:ClaimSubmitterInfo change="UNCHANGED">
+		<ucfd:PersonIndicator value="2" change="UNCHANGED"/>
+		<ucfd:Name value="MCO Plan" change="UNCHANGED"/>
+		<ucfd:ElectronicIdentificationNumber value="123456789A" change="UNCHANGED"/>
+		<ucfd:OtherIdentifier change="UNCHANGED">
+			<ucf:Qualifier value="LB" change="UNCHANGED"/>
+			<ucf:Identifier value="123456789A" change="UNCHANGED"/>
+		</ucfd:OtherIdentifier>
+		<ucfd:ContactInfo change="UNCHANGED">
+			<ucfd:ContactType value="IC" change="UNCHANGED"/>
+			<ucfd:ContactName value="ROBERT WHITE" change="UNCHANGED"/>
+			<ucfd:CommunicationNumber change="UNCHANGED">
+				<ucf:Qualifier value="TE" change="UNCHANGED"/>
+				<ucf:Identifier value="5703449237" change="UNCHANGED"/>
+			</ucfd:CommunicationNumber>
+			<ucfd:CommunicationNumber change="UNCHANGED">
+				<ucf:Qualifier value="EM" change="UNCHANGED"/>
+				<ucf:Identifier value="support@Edifecs.com" change="UNCHANGED"/>
+			</ucfd:CommunicationNumber>
+		</ucfd:ContactInfo>
+	</echcf:ClaimSubmitterInfo>
+	<echcf:ClaimReceiverInfo change="UNCHANGED">
+		<ucfd:PersonIndicator value="3" change="UNCHANGED"/>
+		<ucfd:Name value="MEDICAID STATE" change="UNCHANGED"/>
+		<ucfd:ElectronicIdentificationNumber value="APPCSVNTEST1" change="UNCHANGED"/>
+	</echcf:ClaimReceiverInfo>
+	<echcf:InternalClaimID value="claimID_001" change="UNCHANGED"/>
+	<echcf:Classifications change="UNCHANGED">
+		<hcfd:IsAdministrativeDenial value="false" change="UNCHANGED"/>
+	</echcf:Classifications>
+	<echcf:PatientInfo change="UNCHANGED">
+		<ucfd:AccountIdentifier value="321654987000" change="UNCHANGED"/>
+		<hcfd:PatientStatus value="01" change="UNCHANGED"/>
+		<hcfd:EnrollmentInfo change="UNCHANGED">
+			<hcfd:RelationshipToSubscriber value="18" change="UNCHANGED"/>
+		</hcfd:EnrollmentInfo>
+	</echcf:PatientInfo>
+	<echcf:SubscriberInfo change="UNCHANGED">
+		<ucfd:Role value="IL" change="UNCHANGED"/>
+		<ucfd:FirstName value="JOHN" change="UNCHANGED"/>
+		<ucfd:LastName value="DOE" change="UNCHANGED"/>
+		<ucfd:MiddleName value="T" change="UNCHANGED"/>
+		<ucfd:PrimaryIdentifier change="UNCHANGED">
+			<ucf:Qualifier value="MI" change="UNCHANGED"/>
+			<ucf:Identifier value="321654987000" change="UNCHANGED"/>
+		</ucfd:PrimaryIdentifier>
+		<ucfd:AddressInfo change="UNCHANGED">
+			<ucfd:AddressLine1 value="123 N MAIN ST" change="UNCHANGED"/>
+			<ucfd:AddressLine2 value="APT 1" change="UNCHANGED"/>
+			<ucfd:City value="ANYCITY" change="UNCHANGED"/>
+			<ucfd:State value="VA" change="UNCHANGED"/>
+			<ucfd:PostalCode value="23456" change="UNCHANGED"/>
+		</ucfd:AddressInfo>
+		<ucfd:DemographicsInfo change="UNCHANGED">
+			<ucfd:BirthDate value="1990-08-13" change="UNCHANGED"/>
+			<ucfd:Gender value="M" change="UNCHANGED"/>
+		</ucfd:DemographicsInfo>
+		<hcfd:HealthInsuranceClaimIdentifier value="7894561234" change="UNCHANGED"/>
+		<hcfd:MedicaidIdentifier value="HrenEgoZnaet" change="UNCHANGED"/>
+		<hcfd:MedicareIdentifier value="7894561234" change="UNCHANGED"/>
+		<hcfd:PersonIndicator value="1" change="UNCHANGED"/>
+		<hcfd:InsuranceInfo change="UNCHANGED">
+			<ucf:Property name="PlanPayerSequenceCode" value="W" valueType="STRING" change="UNCHANGED"/>
+			<ucf:Property name="PlanFilingIndicatorCode" value="MC" valueType="STRING" change="UNCHANGED"/>
+			<hcfd:FilingIndicatorCode value="MC" change="UNCHANGED"/>
+			<hcfd:PayerSequenceCode value="S" change="UNCHANGED"/>
+			<hcfd:AssignmentPlanParticipationCode value="B" change="UNCHANGED"/>
+			<hcfd:BenefitsAssignmentIndicator value="Y" change="UNCHANGED"/>
+			<hcfd:ReleaseOfInformation value="C" change="UNCHANGED"/>
+			<hcfd:PayerInfo change="UNCHANGED">
+				<ucf:Property name="PlanName" value="MCO PLAN" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="PlanOtherIdentifierQualifier" value="12345" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="PlanOtherIdentifier" value="G1" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="OtherPayerPriorAuthorizationNumberQualifier" value="12401" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="OtherPayerPriorAuthorizationNumber" value="9F" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="OtherPayerReferralNumberQualifier" value="12402" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="OtherPayerReferralNumber" value="T4" valueType="STRING" change="UNCHANGED"/>
+				<ucfd:PersonIndicator value="5" change="UNCHANGED"/>
+				<ucfd:Role value="PR" change="UNCHANGED"/>
+				<ucfd:Name value="MCOPLAN" change="UNCHANGED"/>
+				<ucfd:PrimaryIdentifier change="UNCHANGED">
+					<ucf:Property name="PlanQualifier" value="PI21" valueType="STRING" change="UNCHANGED"/>
+					<ucf:Property name="PlanIdentifier" value="300120015" valueType="STRING" change="UNCHANGED"/>
+					<ucf:Qualifier value="PI" change="UNCHANGED"/>
+					<ucf:Identifier value="300119960" change="UNCHANGED"/>
+				</ucfd:PrimaryIdentifier>
+				<ucfd:AddressInfo change="UNCHANGED">
+					<ucfd:AddressType value="Subscriber" change="UNCHANGED"/>
+					<ucfd:AddressLine1 value="116 16TH ST" change="UNCHANGED"/>
+					<ucfd:AddressLine2 value="SUITE A" change="UNCHANGED"/>
+					<ucfd:City value="BELLEVUE" change="UNCHANGED"/>
+					<ucfd:State value="WA3" change="UNCHANGED"/>
+					<ucfd:PostalCode value="98001" change="UNCHANGED"/>
+				</ucfd:AddressInfo>
+				<ucfd:AddressInfo change="UNCHANGED">
+					<ucfd:AddressType value="PlanPayer" change="UNCHANGED"/>
+					<ucfd:AddressLine1 value="116TH ST" change="UNCHANGED"/>
+					<ucfd:City value="BELLEVU21" change="UNCHANGED"/>
+					<ucfd:State value="VA22" change="UNCHANGED"/>
+					<ucfd:PostalCode value="98765" change="UNCHANGED"/>
+				</ucfd:AddressInfo>
+			</hcfd:PayerInfo>
+		</hcfd:InsuranceInfo>
+		<hcfd:EnrollmentInfo change="UNCHANGED">
+			<ucf:Property name="PlanPolicyIdentifier" value="2222264" valueType="STRING" change="UNCHANGED"/>
+			<hcfd:PolicyIdentifier value="2222222" change="UNCHANGED"/>
+			<hcfd:GroupIdentifier value="678" change="UNCHANGED"/>
+			<hcfd:RelationshipToSubscriber value="18" change="UNCHANGED"/>
+		</hcfd:EnrollmentInfo>
+	</echcf:SubscriberInfo>
+	<echcf:ClaimIdentificationInfo change="UNCHANGED">
+		<hcfd:PatientControlNumber value="7777777" change="UNCHANGED"/>
+		<hcfd:ProviderClaimNumber value="claimID_001" change="UNCHANGED"/>
+		<hcfd:ClearinghouseTraceNumber value="9875" change="UNCHANGED"/>
+		<hcfd:ClaimType value="InstClaim" change="UNCHANGED"/>
+		<hcfd:FacilityType value="21" change="UNCHANGED"/>
+		<hcfd:TypeOfBill value="A" change="UNCHANGED"/>
+		<hcfd:ClaimFrequencyCode value="10" change="UNCHANGED"/>
+	</echcf:ClaimIdentificationInfo>
+	<echcf:ClaimDetails change="UNCHANGED">
+		<hcfd:AdmissionSource value="6" change="UNCHANGED"/>
+		<hcfd:AdmissionType value="7" change="UNCHANGED"/>
+		<hcfd:ClaimContractInfo change="UNCHANGED">
+			<hcfd:ContractIdentifier value="ContractID" change="UNCHANGED"/>
+			<hcfd:ContractTypeCode value="024" change="UNCHANGED"/>
+			<hcfd:ContractCode value="025" change="UNCHANGED"/>
+		</hcfd:ClaimContractInfo>
+		<hcfd:HealthInformation change="UNCHANGED">
+			<ucf:Property name="DiagnosisRelatedGroupVersion" value="001" valueType="STRING" change="UNCHANGED"/>
+			<hcfd:AdmittingDiagnosis change="UNCHANGED">
+				<hcfd:DiagnosisCode value="A001" change="UNCHANGED"/>
+				<hcfd:DiagnosisCodeType value="ABJ" change="UNCHANGED"/>
+			</hcfd:AdmittingDiagnosis>
+			<hcfd:PrincipalDiagnosis change="UNCHANGED">
+				<hcfd:SequenceNumber value="1" change="UNCHANGED"/>
+				<hcfd:DiagnosisCode value="A000" change="UNCHANGED"/>
+				<hcfd:DiagnosisCodeType value="ABK" change="UNCHANGED"/>
+				<hcfd:PresentOnAdmissionIndicator value="D" change="UNCHANGED"/>
+			</hcfd:PrincipalDiagnosis>
+			<hcfd:OtherDiagnosis change="UNCHANGED">
+				<hcfd:SequenceNumber value="2" change="UNCHANGED"/>
+				<hcfd:DiagnosisCode value="A011" change="UNCHANGED"/>
+				<hcfd:DiagnosisCodeType value="ABF" change="UNCHANGED"/>
+				<hcfd:PresentOnAdmissionIndicator value="E" change="UNCHANGED"/>
+			</hcfd:OtherDiagnosis>
+			<hcfd:OtherDiagnosis change="UNCHANGED">
+				<hcfd:SequenceNumber value="3" change="UNCHANGED"/>
+				<hcfd:DiagnosisCode value="A012" change="UNCHANGED"/>
+				<hcfd:DiagnosisCodeType value="AB1" change="UNCHANGED"/>
+				<hcfd:PresentOnAdmissionIndicator value="F" change="UNCHANGED"/>
+			</hcfd:OtherDiagnosis>
+			<hcfd:OtherDiagnosis change="UNCHANGED">
+				<hcfd:SequenceNumber value="4" change="UNCHANGED"/>
+				<hcfd:DiagnosisCode value="A013" change="UNCHANGED"/>
+				<hcfd:DiagnosisCodeType value="AB2" change="UNCHANGED"/>
+				<hcfd:PresentOnAdmissionIndicator value="G" change="UNCHANGED"/>
+			</hcfd:OtherDiagnosis>
+			<hcfd:OtherDiagnosis change="UNCHANGED">
+				<hcfd:SequenceNumber value="5" change="UNCHANGED"/>
+				<hcfd:DiagnosisCode value="A014" change="UNCHANGED"/>
+				<hcfd:DiagnosisCodeType value="AB3" change="UNCHANGED"/>
+				<hcfd:PresentOnAdmissionIndicator value="H" change="UNCHANGED"/>
+			</hcfd:OtherDiagnosis>
+			<hcfd:OtherDiagnosis change="UNCHANGED">
+				<hcfd:SequenceNumber value="6" change="UNCHANGED"/>
+				<hcfd:DiagnosisCode value="A020" change="UNCHANGED"/>
+				<hcfd:DiagnosisCodeType value="AB4" change="UNCHANGED"/>
+				<hcfd:PresentOnAdmissionIndicator value="I" change="UNCHANGED"/>
+			</hcfd:OtherDiagnosis>
+			<hcfd:OtherDiagnosis change="UNCHANGED">
+				<hcfd:SequenceNumber value="7" change="UNCHANGED"/>
+				<hcfd:DiagnosisCode value="A021" change="UNCHANGED"/>
+				<hcfd:DiagnosisCodeType value="AB5" change="UNCHANGED"/>
+				<hcfd:PresentOnAdmissionIndicator value="J" change="UNCHANGED"/>
+			</hcfd:OtherDiagnosis>
+			<hcfd:OtherDiagnosis change="UNCHANGED">
+				<hcfd:SequenceNumber value="8" change="UNCHANGED"/>
+				<hcfd:DiagnosisCode value="A0220" change="UNCHANGED"/>
+				<hcfd:DiagnosisCodeType value="AB6" change="UNCHANGED"/>
+				<hcfd:PresentOnAdmissionIndicator value="K" change="UNCHANGED"/>
+			</hcfd:OtherDiagnosis>
+			<hcfd:PrincipalProcedure change="UNCHANGED">
+				<hcfd:SequenceNumber value="1" change="UNCHANGED"/>
+				<hcfd:ProcedureCode value="0016070" change="UNCHANGED"/>
+				<hcfd:ProcedureCodeType value="BBR" change="UNCHANGED"/>
+				<hcfd:ProcedureDate value="2012-09-05" change="UNCHANGED"/>
+			</hcfd:PrincipalProcedure>
+			<hcfd:OccurrenceCode change="UNCHANGED">
+				<hcfd:SequenceNumber value="1" change="UNCHANGED"/>
+				<hcfd:Code value="11" change="UNCHANGED"/>
+				<hcfd:RelatedDate value="2016-05-01" change="UNCHANGED"/>
+			</hcfd:OccurrenceCode>
+			<hcfd:OccurrenceCode change="UNCHANGED">
+				<hcfd:SequenceNumber value="2" change="UNCHANGED"/>
+				<hcfd:Code value="42" change="UNCHANGED"/>
+				<hcfd:RelatedDate value="2016-01-17" change="UNCHANGED"/>
+			</hcfd:OccurrenceCode>
+			<hcfd:Value change="UNCHANGED">
+				<hcfd:SequenceNumber value="1" change="UNCHANGED"/>
+				<hcfd:Value value="017" change="UNCHANGED"/>
+				<hcfd:RelatedAmount value="500000" change="UNCHANGED"/>
+			</hcfd:Value>
+			<hcfd:Value change="UNCHANGED">
+				<hcfd:SequenceNumber value="2" change="UNCHANGED"/>
+				<hcfd:Value value="24" change="UNCHANGED"/>
+				<hcfd:RelatedAmount value="294600" change="UNCHANGED"/>
+			</hcfd:Value>
+			<hcfd:Value change="UNCHANGED">
+				<hcfd:SequenceNumber value="3" change="UNCHANGED"/>
+				<hcfd:Value value="80" change="UNCHANGED"/>
+				<hcfd:RelatedAmount value="300" change="UNCHANGED"/>
+			</hcfd:Value>
+			<hcfd:Condition change="UNCHANGED">
+				<hcfd:SequenceNumber value="1" change="UNCHANGED"/>
+				<hcfd:Code value="C5" change="UNCHANGED"/>
+			</hcfd:Condition>
+		</hcfd:HealthInformation>
+	</echcf:ClaimDetails>
+	<echcf:ClaimDates change="UNCHANGED">
+		<hcfd:AdmissionDate value="2016-05-01" change="UNCHANGED"/>
+		<hcfd:AdmissionHour value="12:42:00" change="UNCHANGED"/>
+		<hcfd:ClaimProcessorReceivedDate value="2017-05-05" change="UNCHANGED"/>
+		<hcfd:DischargeHour value="11:30:00" change="UNCHANGED"/>
+		<hcfd:ServiceDates change="UNCHANGED">
+			<ucf:BeginDate value="2016-05-01" change="UNCHANGED"/>
+			<ucf:EndDate value="2016-05-10" change="UNCHANGED"/>
+		</hcfd:ServiceDates>
+	</echcf:ClaimDates>
+	<echcf:ClaimAmounts change="UNCHANGED">
+		<hcfd:TotalClaimCharge value="20000.00" change="UNCHANGED"/>
+	</echcf:ClaimAmounts>
+	<echcf:RelatedProvidersInfo change="UNCHANGED">
+		<hcfd:BillingProvider change="UNCHANGED">
+			<ucfd:PersonIndicator value="4" change="UNCHANGED"/>
+			<ucfd:PrimaryIdentifier change="UNCHANGED">
+				<ucf:Qualifier value="XX" change="UNCHANGED"/>
+				<ucf:Identifier value="1801835970" change="UNCHANGED"/>
+			</ucfd:PrimaryIdentifier>
+			<ucfd:TaxID value="503589555" change="UNCHANGED"/>
+			<ucfd:AddressInfo change="UNCHANGED">
+				<ucfd:AddressLine1 value="4800 SAND POINT WAY" change="UNCHANGED"/>
+				<ucfd:AddressLine2 value="Bill Address 2" change="UNCHANGED"/>
+				<ucfd:City value="SEATTLE" change="UNCHANGED"/>
+				<ucfd:State value="WA" change="UNCHANGED"/>
+				<ucfd:PostalCode value="981051111" change="UNCHANGED"/>
+				<ucfd:Country value="US" change="UNCHANGED"/>
+			</ucfd:AddressInfo>
+			<ucfd:ContactInfo change="UNCHANGED">
+				<ucfd:ContactType value="IC1" change="UNCHANGED"/>
+				<ucfd:ContactName value="MARIAH PEA" change="UNCHANGED"/>
+				<ucfd:CommunicationNumber change="UNCHANGED">
+					<ucf:Property name="Sequence" value="1" valueType="STRING" change="UNCHANGED"/>
+					<ucf:Qualifier value="TE2" change="UNCHANGED"/>
+					<ucf:Identifier value="7574567890" change="UNCHANGED"/>
+				</ucfd:CommunicationNumber>
+			</ucfd:ContactInfo>
+			<hcfd:NPI value="1801835970" change="UNCHANGED"/>
+			<hcfd:TaxonomyCode value="282N00000X" change="UNCHANGED"/>
+			<hcfd:ProviderSpeciality value="0B" change="UNCHANGED"/>
+			<hcfd:ProviderType value="LIC1234" change="UNCHANGED"/>
+		</hcfd:BillingProvider>
+		<hcfd:AttendingProviderInfo change="UNCHANGED">
+			<ucfd:PersonIndicator value="22" change="UNCHANGED"/>
+			<ucfd:Role value="71" change="UNCHANGED"/>
+			<ucfd:FirstName value="WILLIAM" change="UNCHANGED"/>
+			<ucfd:LastName value="LAKIN" change="UNCHANGED"/>
+			<ucfd:PrimaryIdentifier change="UNCHANGED">
+				<ucf:Qualifier value="XX" change="UNCHANGED"/>
+				<ucf:Identifier value="1760431167" change="UNCHANGED"/>
+			</ucfd:PrimaryIdentifier>
+			<hcfd:NPI value="1760431167" change="UNCHANGED"/>
+			<hcfd:TaxonomyCode value="208D00000X" change="UNCHANGED"/>
+		</hcfd:AttendingProviderInfo>
+	</echcf:RelatedProvidersInfo>
+	<echcf:ClaimPricingInfo change="UNCHANGED">
+		<hcfd:PricingMethodology value="27" change="UNCHANGED"/>
+		<hcfd:AllowedAmount value="50" change="UNCHANGED"/>
+		<hcfd:RepricedClaimNumber value="1234456" change="UNCHANGED"/>
+	</echcf:ClaimPricingInfo>
+	<echcf:ClaimCOBInfo change="UNCHANGED">
+		<ucf:Property name="COBLoopType" value="330" valueType="STRING" change="UNCHANGED"/>
+		<hcfd:OtherSubscriberInfo change="UNCHANGED">
+			<ucfd:Role value="IL9" change="UNCHANGED"/>
+			<ucfd:FirstName value="LYNN" change="UNCHANGED"/>
+			<ucfd:LastName value="CHANDLER" change="UNCHANGED"/>
+			<ucfd:PrimaryIdentifier change="UNCHANGED">
+				<ucf:Qualifier value="MI" change="UNCHANGED"/>
+				<ucf:Identifier value="222229999B" change="UNCHANGED"/>
+			</ucfd:PrimaryIdentifier>
+			<ucfd:AddressInfo change="UNCHANGED">
+				<ucfd:AddressLine1 value="404 COBBLEWOOD ARCH" change="UNCHANGED"/>
+				<ucfd:City value="CHESAPEAKE" change="UNCHANGED"/>
+				<ucfd:State value="MD" change="UNCHANGED"/>
+				<ucfd:PostalCode value="233202222" change="UNCHANGED"/>
+			</ucfd:AddressInfo>
+			<hcfd:PersonIndicator value="64" change="UNCHANGED"/>
+			<hcfd:InsuranceInfo change="UNCHANGED">
+				<hcfd:FilingIndicatorCode value="ZZ" change="UNCHANGED"/>
+				<hcfd:PayerSequenceCode value="L" change="UNCHANGED"/>
+				<hcfd:BenefitsAssignmentIndicator value="O" change="UNCHANGED"/>
+				<hcfd:ReleaseOfInformation value="P" change="UNCHANGED"/>
+				<hcfd:PayerInfo change="UNCHANGED">
+					<ucfd:PersonIndicator value="25" change="UNCHANGED"/>
+					<ucfd:Role value="PR10" change="UNCHANGED"/>
+					<ucfd:Name value="MEDICARE COMPANY" change="UNCHANGED"/>
+					<ucfd:PrimaryIdentifier change="UNCHANGED">
+						<ucf:Qualifier value="PI11" change="UNCHANGED"/>
+						<ucf:Identifier value="1212" change="UNCHANGED"/>
+					</ucfd:PrimaryIdentifier>
+					<ucfd:AddressInfo change="UNCHANGED">
+						<ucfd:AddressLine1 value="203 Street" change="UNCHANGED"/>
+						<ucfd:City value="Washington" change="UNCHANGED"/>
+						<ucfd:State value="KY" change="UNCHANGED"/>
+						<ucfd:PostalCode value="405124601" change="UNCHANGED"/>
+					</ucfd:AddressInfo>
+				</hcfd:PayerInfo>
+			</hcfd:InsuranceInfo>
+			<hcfd:EnrollmentInfo change="UNCHANGED">
+				<hcfd:RelationshipToSubscriber value="30" change="UNCHANGED"/>
+			</hcfd:EnrollmentInfo>
+		</hcfd:OtherSubscriberInfo>
+		<hcfd:AdjudicationOrPaymentDate value="2016-01-35" change="UNCHANGED"/>
+		<hcfd:OtherPayerAdjudicationInfo change="UNCHANGED">
+			<hcfd:ClaimAdjustment change="UNCHANGED">
+				<hcfd:GroupCode value="PR8" change="UNCHANGED"/>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="14" change="UNCHANGED"/>
+					<hcfd:Quantity value="17" change="UNCHANGED"/>
+					<hcfd:Amount value="39" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="19" change="UNCHANGED"/>
+					<hcfd:Quantity value="38" change="UNCHANGED"/>
+					<hcfd:Amount value="-10" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+			</hcfd:ClaimAdjustment>
+		</hcfd:OtherPayerAdjudicationInfo>
+	</echcf:ClaimCOBInfo>
+	<echcf:ClaimCOBInfo change="UNCHANGED">
+		<ucf:Property name="COBLoopType" value="320" valueType="STRING" change="UNCHANGED"/>
+		<hcfd:OtherSubscriberInfo change="UNCHANGED">
+			<ucfd:Role value="IL13" change="UNCHANGED"/>
+			<ucfd:FirstName value="LYN11" change="UNCHANGED"/>
+			<ucfd:LastName value="CHANDLE10" change="UNCHANGED"/>
+			<ucfd:PrimaryIdentifier change="UNCHANGED">
+				<ucf:Qualifier value="MI" change="UNCHANGED"/>
+				<ucf:Identifier value="222229999A" change="UNCHANGED"/>
+			</ucfd:PrimaryIdentifier>
+			<ucfd:AddressInfo change="UNCHANGED">
+				<ucfd:AddressLine1 value="404 COBBLEWOOD ARC12" change="UNCHANGED"/>
+				<ucfd:City value="CHESAPEAK10" change="UNCHANGED"/>
+				<ucfd:State value="MD" change="UNCHANGED"/>
+				<ucfd:PostalCode value="233202258" change="UNCHANGED"/>
+			</ucfd:AddressInfo>
+			<hcfd:PersonIndicator value="36" change="UNCHANGED"/>
+			<hcfd:InsuranceInfo change="UNCHANGED">
+				<hcfd:FilingIndicatorCode value="MB" change="UNCHANGED"/>
+				<hcfd:PayerSequenceCode value="Q" change="UNCHANGED"/>
+				<hcfd:BenefitsAssignmentIndicator value="U" change="UNCHANGED"/>
+				<hcfd:ReleaseOfInformation value="V" change="UNCHANGED"/>
+				<hcfd:PayerInfo change="UNCHANGED">
+					<ucf:Property name="PlanName" value="MEDICARE COMPAN13" valueType="STRING" change="UNCHANGED"/>
+					<ucfd:PersonIndicator value="77" change="UNCHANGED"/>
+					<ucfd:Role value="PR14" change="UNCHANGED"/>
+					<ucfd:Name value="MEDICARE COMPAN13" change="UNCHANGED"/>
+					<ucfd:PrimaryIdentifier change="UNCHANGED">
+						<ucf:Qualifier value="PI15" change="UNCHANGED"/>
+						<ucf:Identifier value="12123" change="UNCHANGED"/>
+					</ucfd:PrimaryIdentifier>
+					<ucfd:AddressInfo change="UNCHANGED">
+						<ucfd:AddressLine1 value="203 Stree14" change="UNCHANGED"/>
+						<ucfd:City value="Washingto15" change="UNCHANGED"/>
+						<ucfd:State value="KY16" change="UNCHANGED"/>
+						<ucfd:PostalCode value="405124640" change="UNCHANGED"/>
+					</ucfd:AddressInfo>
+				</hcfd:PayerInfo>
+			</hcfd:InsuranceInfo>
+			<hcfd:EnrollmentInfo change="UNCHANGED">
+				<hcfd:RelationshipToSubscriber value="43" change="UNCHANGED"/>
+			</hcfd:EnrollmentInfo>
+		</hcfd:OtherSubscriberInfo>
+		<hcfd:AdjudicationOrPaymentDate value="2016-01-52" change="UNCHANGED"/>
+		<hcfd:OtherPayerAdjudicationInfo change="UNCHANGED">
+			<hcfd:ClaimAdjustment change="UNCHANGED">
+				<hcfd:GroupCode value="PR12" change="UNCHANGED"/>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="54" change="UNCHANGED"/>
+					<hcfd:Quantity value="31" change="UNCHANGED"/>
+					<hcfd:Amount value="67" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="33" change="UNCHANGED"/>
+					<hcfd:Quantity value="35" change="UNCHANGED"/>
+					<hcfd:Amount value="55" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+			</hcfd:ClaimAdjustment>
+		</hcfd:OtherPayerAdjudicationInfo>
+	</echcf:ClaimCOBInfo>
+	<echcf:ClaimPaymentInfo change="UNCHANGED">
+		<hcfd:PaymentIssueDate value="2016-05-10" change="UNCHANGED"/>
+		<hcfd:PaymentMethod value="2U" change="UNCHANGED"/>
+		<hcfd:CheckorEFTNumber value="123456" change="UNCHANGED"/>
+		<hcfd:PayerTotalClaimCharge value="20000.00" change="UNCHANGED"/>
+		<hcfd:PaymentOrAdjudicationDate value="2016-05-10" change="UNCHANGED"/>
+		<hcfd:ClaimAdjustment change="UNCHANGED">
+			<hcfd:GroupCode value="PR17" change="UNCHANGED"/>
+			<hcfd:AdjustmentGroup change="UNCHANGED">
+				<hcfd:ReasonCode value="44" change="UNCHANGED"/>
+				<hcfd:Quantity value="47" change="UNCHANGED"/>
+				<hcfd:Amount value="99" change="UNCHANGED"/>
+			</hcfd:AdjustmentGroup>
+			<hcfd:AdjustmentGroup change="UNCHANGED">
+				<hcfd:ReasonCode value="49" change="UNCHANGED"/>
+				<hcfd:Quantity value="51" change="UNCHANGED"/>
+				<hcfd:Amount value="87" change="UNCHANGED"/>
+			</hcfd:AdjustmentGroup>
+		</hcfd:ClaimAdjustment>
+	</echcf:ClaimPaymentInfo>
+	<echcf:ClaimStatus change="UNCHANGED">
+		<hcfd:CurrentState value="02" change="UNCHANGED"/>
+	</echcf:ClaimStatus>
+	<echcf:ServiceLineInfo change="UNCHANGED">
+		<ucf:Property name="ClaimLineStatus" value="02" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="Statement_FromDate" value="20160501" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="Statement_ToDate" value="20160510" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="Admit_Date" value="20160501" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="Admit_Time" value="1242" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="LineCounter" value="1" valueType="STRING" change="UNCHANGED"/>
+		<hcfd:ClaimProcessorServiceLineID value="60" change="UNCHANGED"/>
+		<hcfd:AssignedNumber value="60" change="UNCHANGED"/>
+		<hcfd:LineItemControlNumber value="12407" change="UNCHANGED"/>
+		<hcfd:ServiceInfo change="UNCHANGED">
+			<hcfd:RevenueCode value="0121" change="UNCHANGED"/>
+			<hcfd:ServiceCodeInfo change="UNCHANGED">
+				<hcfd:Qualifier value="HC" change="UNCHANGED"/>
+				<hcfd:Value value="81099" change="UNCHANGED"/>
+			</hcfd:ServiceCodeInfo>
+			<hcfd:LineChargeAmount value="15000.00" change="UNCHANGED"/>
+			<hcfd:NonCoveredChargeAmount value="15000.022" change="UNCHANGED"/>
+			<hcfd:UnitMeasurementCode value="UN" change="UNCHANGED"/>
+			<hcfd:Quantity value="63" change="UNCHANGED"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates change="UNCHANGED">
+			<hcfd:ServiceDates change="UNCHANGED">
+				<ucf:BeginDate value="2016-01-74" change="UNCHANGED"/>
+				<ucf:EndDate value="2016-01-74" change="UNCHANGED"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:ServicePricingInfo change="UNCHANGED">
+			<hcfd:PricingMethodology value="09" change="UNCHANGED"/>
+			<hcfd:AllowedAmount value="20" change="UNCHANGED"/>
+		</hcfd:ServicePricingInfo>
+		<hcfd:SubmittedServiceLineID value="60" change="UNCHANGED"/>
+		<hcfd:OtherPayerProcessedInfo change="UNCHANGED">
+			<ucf:Property name="OtherLoopType" value="433" valueType="STRING" change="UNCHANGED"/>
+			<ucf:Property name="OtherInsuranceCoPayAmount" value="76" valueType="AMOUNT" change="UNCHANGED"/>
+			<ucf:Property name="OtherInsuranceDeductibleAmount" value="129" valueType="AMOUNT" change="UNCHANGED"/>
+			<hcfd:ProcessedPayerID change="UNCHANGED">
+				<ucf:Value value="1275" change="UNCHANGED"/>
+			</hcfd:ProcessedPayerID>
+			<hcfd:ProcessedServiceCodeInfo change="UNCHANGED">
+				<hcfd:Qualifier value="HC23" change="UNCHANGED"/>
+				<hcfd:Value value="A0021" change="UNCHANGED"/>
+				<hcfd:ModifierInfo change="UNCHANGED">
+					<hcfd:ModifierCode value="AD" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="1" change="UNCHANGED"/>
+				</hcfd:ModifierInfo>
+				<hcfd:ModifierInfo change="UNCHANGED">
+					<hcfd:ModifierCode value="AE" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="2" change="UNCHANGED"/>
+				</hcfd:ModifierInfo>
+				<hcfd:ModifierInfo change="UNCHANGED">
+					<hcfd:ModifierCode value="AF" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="3" change="UNCHANGED"/>
+				</hcfd:ModifierInfo>
+				<hcfd:ModifierInfo change="UNCHANGED">
+					<hcfd:ModifierCode value="AG" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="4" change="UNCHANGED"/>
+				</hcfd:ModifierInfo>
+			</hcfd:ProcessedServiceCodeInfo>
+			<hcfd:RevenueCode value="0022" change="UNCHANGED"/>
+			<hcfd:LinePaidAmount value="15000" change="UNCHANGED"/>
+			<hcfd:ProcessedQuantity value="82" change="UNCHANGED"/>
+			<hcfd:ServiceAdjustment change="UNCHANGED">
+				<hcfd:GroupCode value="PR24" change="UNCHANGED"/>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="66" change="UNCHANGED"/>
+					<hcfd:Quantity value="68" change="UNCHANGED"/>
+					<hcfd:Amount value="76" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="70" change="UNCHANGED"/>
+					<hcfd:Quantity value="72" change="UNCHANGED"/>
+					<hcfd:Amount value="129" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+			</hcfd:ServiceAdjustment>
+			<hcfd:PaymentOrAdjudicationDate value="2016-05-15" change="UNCHANGED"/>
+		</hcfd:OtherPayerProcessedInfo>
+		<hcfd:OtherPayerProcessedInfo change="UNCHANGED">
+			<ucf:Property name="OtherLoopType" value="432" valueType="STRING" change="UNCHANGED"/>
+			<ucf:Property name="MedicareCoPayAmount" value="165" valueType="AMOUNT" change="UNCHANGED"/>
+			<ucf:Property name="MedicareDeductibleAmount" value="155" valueType="AMOUNT" change="UNCHANGED"/>
+			<hcfd:ProcessedPayerID change="UNCHANGED">
+				<ucf:Value value="12195" change="UNCHANGED"/>
+			</hcfd:ProcessedPayerID>
+			<hcfd:ProcessedServiceCodeInfo change="UNCHANGED">
+				<hcfd:Qualifier value="HC25" change="UNCHANGED"/>
+				<hcfd:Value value="A00223" change="UNCHANGED"/>
+				<hcfd:ModifierInfo change="UNCHANGED">
+					<hcfd:ModifierCode value="AD26" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="1" change="UNCHANGED"/>
+				</hcfd:ModifierInfo>
+				<hcfd:ModifierInfo change="UNCHANGED">
+					<hcfd:ModifierCode value="AE27" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="2" change="UNCHANGED"/>
+				</hcfd:ModifierInfo>
+				<hcfd:ModifierInfo change="UNCHANGED">
+					<hcfd:ModifierCode value="AF28" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="3" change="UNCHANGED"/>
+				</hcfd:ModifierInfo>
+				<hcfd:ModifierInfo change="UNCHANGED">
+					<hcfd:ModifierCode value="AG29" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="4" change="UNCHANGED"/>
+				</hcfd:ModifierInfo>
+			</hcfd:ProcessedServiceCodeInfo>
+			<hcfd:RevenueCode value="00224" change="UNCHANGED"/>
+			<hcfd:LinePaidAmount value="15073" change="UNCHANGED"/>
+			<hcfd:ProcessedQuantity value="92" change="UNCHANGED"/>
+			<hcfd:ServiceAdjustment change="UNCHANGED">
+				<hcfd:GroupCode value="PR30" change="UNCHANGED"/>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="152" change="UNCHANGED"/>
+					<hcfd:Quantity value="160" change="UNCHANGED"/>
+					<hcfd:Amount value="165" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="83" change="UNCHANGED"/>
+					<hcfd:Quantity value="170" change="UNCHANGED"/>
+					<hcfd:Amount value="155" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+			</hcfd:ServiceAdjustment>
+			<hcfd:PaymentOrAdjudicationDate value="2016-02-00" change="UNCHANGED"/>
+		</hcfd:OtherPayerProcessedInfo>
+		<hcfd:ServicePaymentHistory change="UNCHANGED">
+			<hcfd:PaymentIssueDate value="2016-02-13" change="UNCHANGED"/>
+			<hcfd:ProductionDate value="2016-02-13" change="UNCHANGED"/>
+			<hcfd:ProcessedServiceInfo change="UNCHANGED">
+				<hcfd:RevenueCode value="01225" change="UNCHANGED"/>
+				<hcfd:ServiceCodeInfo change="UNCHANGED">
+					<hcfd:Qualifier value="HC31" change="UNCHANGED"/>
+					<hcfd:Value value="81188" change="UNCHANGED"/>
+				</hcfd:ServiceCodeInfo>
+				<hcfd:LineChargeAmount value="15000.00" change="UNCHANGED"/>
+				<hcfd:Quantity value="93" change="UNCHANGED"/>
+			</hcfd:ProcessedServiceInfo>
+			<hcfd:LinePaidAmount value="15088" change="UNCHANGED"/>
+			<hcfd:ProcessedQuantity value="93" change="UNCHANGED"/>
+			<hcfd:ServiceAdjustment change="UNCHANGED">
+				<hcfd:GroupCode value="PR32" change="UNCHANGED"/>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="184" change="UNCHANGED"/>
+					<hcfd:Quantity value="95" change="UNCHANGED"/>
+					<hcfd:Amount value="103" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="97" change="UNCHANGED"/>
+					<hcfd:Quantity value="98" change="UNCHANGED"/>
+					<hcfd:Amount value="86" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+			</hcfd:ServiceAdjustment>
+			<hcfd:PaymentOrAdjudicationDate value="2016-02-13" change="UNCHANGED"/>
+		</hcfd:ServicePaymentHistory>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo change="UNCHANGED">
+		<ucf:Property name="ClaimLineStatus" value="02" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="Statement_FromDate" value="20160501" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="Statement_ToDate" value="20160510" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="Admit_Date" value="20160501" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="Admit_Time" value="1242" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="LineCounter" value="2" valueType="STRING" change="UNCHANGED"/>
+		<hcfd:ClaimProcessorServiceLineID value="101" change="UNCHANGED"/>
+		<hcfd:AssignedNumber value="101" change="UNCHANGED"/>
+		<hcfd:ServiceInfo change="UNCHANGED">
+			<hcfd:RevenueCode value="0250" change="UNCHANGED"/>
+			<hcfd:ServiceCodeInfo change="UNCHANGED">
+				<hcfd:Qualifier value="HC33" change="UNCHANGED"/>
+				<hcfd:Value value="20551" change="UNCHANGED"/>
+			</hcfd:ServiceCodeInfo>
+			<hcfd:LineChargeAmount value="5000.00" change="UNCHANGED"/>
+			<hcfd:NonCoveredChargeAmount value="0" change="UNCHANGED"/>
+			<hcfd:UnitMeasurementCode value="UN34" change="UNCHANGED"/>
+			<hcfd:Quantity value="120" change="UNCHANGED"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates change="UNCHANGED">
+			<hcfd:ServiceDates change="UNCHANGED">
+				<ucf:BeginDate value="2016-02-19" change="UNCHANGED"/>
+				<ucf:EndDate value="2016-02-19" change="UNCHANGED"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:DrugInfo change="UNCHANGED">
+			<hcfd:DrugCode value="00135050703" change="UNCHANGED"/>
+			<hcfd:UnitCount value="106" change="UNCHANGED"/>
+			<hcfd:UnitOfMeasurement value="F2" change="UNCHANGED"/>
+			<hcfd:PharmacyPrescriptionNumber value="989898989898" change="UNCHANGED"/>
+		</hcfd:DrugInfo>
+		<hcfd:ServicePricingInfo change="UNCHANGED">
+			<hcfd:PricingMethodology value="0936" change="UNCHANGED"/>
+			<hcfd:AllowedAmount value="126" change="UNCHANGED"/>
+		</hcfd:ServicePricingInfo>
+		<hcfd:SubmittedServiceLineID value="101" change="UNCHANGED"/>
+		<hcfd:OtherPayerProcessedInfo change="UNCHANGED">
+			<ucf:Property name="OtherLoopType" value="433" valueType="STRING" change="UNCHANGED"/>
+			<ucf:Property name="OtherInsuranceCoPayAmount" value="121" valueType="AMOUNT" change="UNCHANGED"/>
+			<ucf:Property name="OtherInsuranceDeductibleAmount" value="104" valueType="AMOUNT" change="UNCHANGED"/>
+			<hcfd:ProcessedPayerID change="UNCHANGED">
+				<ucf:Value value="1319" change="UNCHANGED"/>
+			</hcfd:ProcessedPayerID>
+			<hcfd:ProcessedServiceCodeInfo change="UNCHANGED">
+				<hcfd:Qualifier value="HC37" change="UNCHANGED"/>
+				<hcfd:Value value="A00226" change="UNCHANGED"/>
+				<hcfd:ModifierInfo change="UNCHANGED">
+					<hcfd:ModifierCode value="AD38" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="1" change="UNCHANGED"/>
+				</hcfd:ModifierInfo>
+				<hcfd:ModifierInfo change="UNCHANGED">
+					<hcfd:ModifierCode value="AE39" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="2" change="UNCHANGED"/>
+				</hcfd:ModifierInfo>
+				<hcfd:ModifierInfo change="UNCHANGED">
+					<hcfd:ModifierCode value="AF40" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="3" change="UNCHANGED"/>
+				</hcfd:ModifierInfo>
+				<hcfd:ModifierInfo change="UNCHANGED">
+					<hcfd:ModifierCode value="AG41" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="4" change="UNCHANGED"/>
+				</hcfd:ModifierInfo>
+			</hcfd:ProcessedServiceCodeInfo>
+			<hcfd:RevenueCode value="00227" change="UNCHANGED"/>
+			<hcfd:LinePaidAmount value="5000" change="UNCHANGED"/>
+			<hcfd:ProcessedQuantity value="235" change="UNCHANGED"/>
+			<hcfd:ServiceAdjustment change="UNCHANGED">
+				<hcfd:GroupCode value="PR42" change="UNCHANGED"/>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="111" change="UNCHANGED"/>
+					<hcfd:Quantity value="113" change="UNCHANGED"/>
+					<hcfd:Amount value="121" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="115" change="UNCHANGED"/>
+					<hcfd:Quantity value="116" change="UNCHANGED"/>
+					<hcfd:Amount value="104" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+			</hcfd:ServiceAdjustment>
+			<hcfd:PaymentOrAdjudicationDate value="2016-02-33" change="UNCHANGED"/>
+		</hcfd:OtherPayerProcessedInfo>
+		<hcfd:OtherPayerProcessedInfo change="UNCHANGED">
+			<ucf:Property name="OtherLoopType" value="432" valueType="STRING" change="UNCHANGED"/>
+			<ucf:Property name="MedicareCoPayAmount" value="132" valueType="AMOUNT" change="UNCHANGED"/>
+			<ucf:Property name="MedicareDeductibleAmount" value="243" valueType="AMOUNT" change="UNCHANGED"/>
+			<hcfd:ProcessedPayerID change="UNCHANGED">
+				<ucf:Value value="12240" change="UNCHANGED"/>
+			</hcfd:ProcessedPayerID>
+			<hcfd:ProcessedServiceCodeInfo change="UNCHANGED">
+				<hcfd:Qualifier value="HC43" change="UNCHANGED"/>
+				<hcfd:Value value="A00228" change="UNCHANGED"/>
+				<hcfd:ModifierInfo change="UNCHANGED">
+					<hcfd:ModifierCode value="AD44" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="1" change="UNCHANGED"/>
+				</hcfd:ModifierInfo>
+				<hcfd:ModifierInfo change="UNCHANGED">
+					<hcfd:ModifierCode value="AE45" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="2" change="UNCHANGED"/>
+				</hcfd:ModifierInfo>
+				<hcfd:ModifierInfo change="UNCHANGED">
+					<hcfd:ModifierCode value="AF46" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="3" change="UNCHANGED"/>
+				</hcfd:ModifierInfo>
+				<hcfd:ModifierInfo change="UNCHANGED">
+					<hcfd:ModifierCode value="AG47" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="4" change="UNCHANGED"/>
+				</hcfd:ModifierInfo>
+			</hcfd:ProcessedServiceCodeInfo>
+			<hcfd:RevenueCode value="00229" change="UNCHANGED"/>
+			<hcfd:LinePaidAmount value="5118" change="UNCHANGED"/>
+			<hcfd:ProcessedQuantity value="137" change="UNCHANGED"/>
+			<hcfd:ServiceAdjustment change="UNCHANGED">
+				<hcfd:GroupCode value="PR48" change="UNCHANGED"/>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="242" change="UNCHANGED"/>
+					<hcfd:Quantity value="124" change="UNCHANGED"/>
+					<hcfd:Amount value="132" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="251" change="UNCHANGED"/>
+					<hcfd:Quantity value="258" change="UNCHANGED"/>
+					<hcfd:Amount value="243" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+			</hcfd:ServiceAdjustment>
+			<hcfd:PaymentOrAdjudicationDate value="2016-02-48" change="UNCHANGED"/>
+		</hcfd:OtherPayerProcessedInfo>
+		<hcfd:ServicePaymentHistory change="UNCHANGED">
+			<hcfd:PaymentIssueDate value="2016-02-61" change="UNCHANGED"/>
+			<hcfd:ProductionDate value="2016-02-61" change="UNCHANGED"/>
+			<hcfd:ProcessedServiceInfo change="UNCHANGED">
+				<hcfd:RevenueCode value="02530" change="UNCHANGED"/>
+				<hcfd:ServiceCodeInfo change="UNCHANGED">
+					<hcfd:Qualifier value="HC49" change="UNCHANGED"/>
+					<hcfd:Value value="20684" change="UNCHANGED"/>
+				</hcfd:ServiceCodeInfo>
+				<hcfd:LineChargeAmount value="5000.00" change="UNCHANGED"/>
+				<hcfd:Quantity value="154" change="UNCHANGED"/>
+			</hcfd:ProcessedServiceInfo>
+			<hcfd:LinePaidAmount value="5132" change="UNCHANGED"/>
+			<hcfd:ProcessedQuantity value="154" change="UNCHANGED"/>
+			<hcfd:ServiceAdjustment change="UNCHANGED">
+				<hcfd:GroupCode value="PR50" change="UNCHANGED"/>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="136" change="UNCHANGED"/>
+					<hcfd:Quantity value="138" change="UNCHANGED"/>
+					<hcfd:Amount value="146" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="140" change="UNCHANGED"/>
+					<hcfd:Quantity value="142" change="UNCHANGED"/>
+					<hcfd:Amount value="269" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+			</hcfd:ServiceAdjustment>
+			<hcfd:PaymentOrAdjudicationDate value="2016-02-61" change="UNCHANGED"/>
+		</hcfd:ServicePaymentHistory>
+	</echcf:ServiceLineInfo>
+</echcf:Claim>

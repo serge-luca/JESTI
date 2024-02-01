@@ -1,0 +1,941 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<echcf:Claim xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:echcf="http://xml.edifecs.com/schema/ECHCF" xmlns:ucf="http://xml.edifecs.com/schema/UCF" xmlns:ucfd="http://xml.edifecs.com/schema/UCFD" xmlns:hcfd="http://xml.edifecs.com/schema/HCFD" version="1.1.1.4" change="UNCHANGED">
+	<echcf:Packaging change="UNCHANGED">
+		<ucf:Property name="TPMBusinessDocument" value="PharmClaim" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="SenderID" value="S-KS Source" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="ReceiverID" value="S-KS" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="DestinationID" value="00005" valueType="STRING" change="UNCHANGED"/>
+		<ucf:Property name="DestinationETIN" value="00005" valueType="STRING" change="UNCHANGED"/>
+		<ucfd:MessageProtocolInfo change="UNCHANGED">
+			<ucfd:Name value="B1" change="UNCHANGED"/>
+			<ucfd:ControlNumber value="T" change="UNCHANGED"/>
+			<ucfd:Protocol value="NCPDP" change="UNCHANGED"/>
+			<ucfd:Version value="12" change="UNCHANGED"/>
+			<ucfd:Sender change="UNCHANGED">
+				<ucf:Qualifier value="SenderID" change="UNCHANGED"/>
+				<ucf:Identifier value="S-KS Source" change="UNCHANGED"/>
+			</ucfd:Sender>
+			<ucfd:Receiver change="UNCHANGED">
+				<ucf:Qualifier value="ReceiverID" change="UNCHANGED"/>
+				<ucf:Identifier value="S-KS" change="UNCHANGED"/>
+			</ucfd:Receiver>
+		</ucfd:MessageProtocolInfo>
+	</echcf:Packaging>
+	<echcf:ClaimSubmitterInfo change="UNCHANGED">
+		<ucfd:OtherIdentifier change="UNCHANGED">
+			<ucf:Qualifier value="SubmitterIdentifier" change="UNCHANGED"/>
+			<ucf:Identifier value="HealthPlan" change="UNCHANGED"/>
+		</ucfd:OtherIdentifier>
+		<ucfd:ContactInfo change="UNCHANGED">
+			<ucfd:ContactName value="1234567890" change="UNCHANGED"/>
+			<ucfd:CommunicationNumber change="UNCHANGED">
+				<ucf:Qualifier value="TE" change="UNCHANGED"/>
+				<ucf:Identifier value="7575601577" change="UNCHANGED"/>
+			</ucfd:CommunicationNumber>
+			<ucfd:CommunicationNumber change="UNCHANGED">
+				<ucf:Qualifier value="EM" change="UNCHANGED"/>
+				<ucf:Identifier value="Robert.Lee@HealthPlan.com" change="UNCHANGED"/>
+			</ucfd:CommunicationNumber>
+		</ucfd:ContactInfo>
+	</echcf:ClaimSubmitterInfo>
+	<echcf:ClaimReceiverInfo change="UNCHANGED">
+		<ucfd:Name value="TN Medicaid State" change="UNCHANGED"/>
+		<ucfd:ElectronicIdentificationNumber value="010900" change="UNCHANGED"/>
+	</echcf:ClaimReceiverInfo>
+	<echcf:InternalClaimID value="{cl_0}" change="UNCHANGED"/>
+	<echcf:Classifications change="UNCHANGED">
+		<hcfd:IsAdministrativeDenial value="false" change="UNCHANGED"/>
+	</echcf:Classifications>
+	<echcf:PatientInfo change="UNCHANGED">
+		<ucfd:FirstName value="WHITEWHITEJS" change="UNCHANGED"/>
+		<ucfd:LastName value="404 COBBLE ARCH" change="UNCHANGED"/>
+		<ucfd:MiddleName value="WHITE" change="UNCHANGED"/>
+		<ucfd:PrimaryIdentifier change="UNCHANGED">
+			<ucf:Qualifier value="06" change="UNCHANGED"/>
+			<ucf:Identifier value="986543" change="UNCHANGED"/>
+		</ucfd:PrimaryIdentifier>
+		<ucfd:AccountIdentifier value="1234ABCD" change="UNCHANGED"/>
+		<ucfd:AddressInfo change="UNCHANGED">
+			<ucfd:AddressType value="1" change="UNCHANGED"/>
+			<ucfd:AddressLine1 value="CHESAPEAKE" change="UNCHANGED"/>
+			<ucfd:AddressLine2 value="VA" change="UNCHANGED"/>
+			<ucfd:State value="23320" change="UNCHANGED"/>
+		</ucfd:AddressInfo>
+		<ucfd:ContactInfo change="UNCHANGED">
+			<ucfd:CommunicationNumber change="UNCHANGED">
+				<ucf:Qualifier value="CQ" change="UNCHANGED"/>
+				<ucf:Identifier value="757642546" change="UNCHANGED"/>
+			</ucfd:CommunicationNumber>
+			<ucfd:CommunicationNumber change="UNCHANGED">
+				<ucf:Qualifier value="HN" change="UNCHANGED"/>
+				<ucf:Identifier value="tiffany.white@gmail.com" change="UNCHANGED"/>
+			</ucfd:CommunicationNumber>
+		</ucfd:ContactInfo>
+		<ucfd:DemographicsInfo change="UNCHANGED">
+			<ucfd:BirthDate value="1988-12-08" change="UNCHANGED"/>
+			<ucfd:Gender value="2" change="UNCHANGED"/>
+		</ucfd:DemographicsInfo>
+		<hcfd:HealthCondition change="UNCHANGED">
+			<ucf:Property name="Sequence" value="1" valueType="STRING" change="UNCHANGED"/>
+			<ucf:Property name="Sequence Number" value="1" valueType="STRING" change="UNCHANGED"/>
+			<ucf:Property name="Diagnosis Sequence Number" value="1" valueType="STRING" change="UNCHANGED"/>
+			<ucf:Property name="MeasurementDate" value="20150131" valueType="STRING" change="UNCHANGED"/>
+			<ucf:Property name="MeasurementTime" value="130400" valueType="STRING" change="UNCHANGED"/>
+			<ucf:Property name="MeasurementDimension" value="01" valueType="STRING" change="UNCHANGED"/>
+			<ucf:Property name="MeasurementUnit" value="03" valueType="STRING" change="UNCHANGED"/>
+			<ucf:Property name="MeasurementValue" value="120" valueType="STRING" change="UNCHANGED"/>
+			<ucf:Qualifier value="01" change="UNCHANGED"/>
+			<ucf:Value value="54544" change="UNCHANGED"/>
+		</hcfd:HealthCondition>
+		<hcfd:EnrollmentInfo change="UNCHANGED">
+			<hcfd:GroupIdentifier value="666666" change="UNCHANGED"/>
+		</hcfd:EnrollmentInfo>
+	</echcf:PatientInfo>
+	<echcf:SubscriberInfo change="UNCHANGED">
+		<ucfd:FirstName value="TIFFANY" change="UNCHANGED"/>
+		<ucfd:LastName value="WHITE" change="UNCHANGED"/>
+		<ucfd:PrimaryIdentifier change="UNCHANGED">
+			<ucf:Qualifier value="15R_CardholderIdentificationNumber" change="UNCHANGED"/>
+			<ucf:Identifier value="12345678910" change="UNCHANGED"/>
+		</ucfd:PrimaryIdentifier>
+		<ucfd:OtherIdentifier change="UNCHANGED">
+			<ucf:Qualifier value="15R_EligibilityClarificationCode" change="UNCHANGED"/>
+			<ucf:Identifier value="0" change="UNCHANGED"/>
+		</ucfd:OtherIdentifier>
+		<ucfd:AddressInfo change="UNCHANGED">
+			<ucfd:AddressLine1 value="404 Cobble Arch" change="UNCHANGED"/>
+			<ucfd:City value="Chesapeake" change="UNCHANGED"/>
+			<ucfd:State value="VA" change="UNCHANGED"/>
+			<ucfd:PostalCode value="23320" change="UNCHANGED"/>
+		</ucfd:AddressInfo>
+		<ucfd:DemographicsInfo change="UNCHANGED">
+			<ucfd:BirthDate value="1988-12-08" change="UNCHANGED"/>
+			<ucfd:Gender value="2" change="UNCHANGED"/>
+		</ucfd:DemographicsInfo>
+		<hcfd:PersonIndicator value="1" change="UNCHANGED"/>
+		<hcfd:InsuranceInfo change="UNCHANGED">
+			<hcfd:PayerSequenceCode value="01" change="UNCHANGED"/>
+			<hcfd:PayerInfo change="UNCHANGED">
+				<ucfd:PrimaryIdentifier change="UNCHANGED">
+					<ucf:Qualifier value="CarrierNumber" change="UNCHANGED"/>
+					<ucf:Identifier value="123456789" change="UNCHANGED"/>
+				</ucfd:PrimaryIdentifier>
+				<ucfd:OtherIdentifier change="UNCHANGED">
+					<ucf:Qualifier value="02" change="UNCHANGED"/>
+					<ucf:Identifier value="333333333" change="UNCHANGED"/>
+				</ucfd:OtherIdentifier>
+			</hcfd:PayerInfo>
+		</hcfd:InsuranceInfo>
+		<hcfd:EnrollmentInfo change="UNCHANGED">
+			<hcfd:PolicyIdentifier value="1234ABCD" change="UNCHANGED"/>
+			<hcfd:GroupIdentifier value="H30000" change="UNCHANGED"/>
+			<hcfd:GroupName value="HealthPlan Group" change="UNCHANGED"/>
+		</hcfd:EnrollmentInfo>
+	</echcf:SubscriberInfo>
+	<echcf:ClaimIdentificationInfo change="UNCHANGED">
+		<hcfd:ProviderClaimNumber value="{cl_0}" change="UNCHANGED"/>
+		<hcfd:PayerClaimControlNumber value="2015022500" change="UNCHANGED"/>
+		<hcfd:OtherClaimIdentifier change="UNCHANGED">
+			<ucf:Qualifier value="OtherCoverageCode" change="UNCHANGED"/>
+			<ucf:Identifier value="3" change="UNCHANGED"/>
+		</hcfd:OtherClaimIdentifier>
+		<hcfd:ClaimType value="PharmClaim" change="UNCHANGED"/>
+		<hcfd:ThirdPartyLiabilityClaimNumber change="UNCHANGED">
+			<ucf:Qualifier value="ServiceReferenceNumber" change="UNCHANGED"/>
+			<ucf:Value value="123456789" change="UNCHANGED"/>
+		</hcfd:ThirdPartyLiabilityClaimNumber>
+		<hcfd:FacilityType value="1619087251" change="UNCHANGED"/>
+		<hcfd:TypeOfBill value="B1" change="UNCHANGED"/>
+		<hcfd:ClaimFrequencyCode value="1" change="UNCHANGED"/>
+		<hcfd:PharmacyPrescriptionNumber value="022620151135" change="UNCHANGED"/>
+	</echcf:ClaimIdentificationInfo>
+	<echcf:ClaimDetails change="UNCHANGED">
+		<hcfd:ClaimContractInfo change="UNCHANGED">
+			<hcfd:ContractIdentifier value="S-KS" change="UNCHANGED"/>
+		</hcfd:ClaimContractInfo>
+		<hcfd:ClaimNote change="UNCHANGED">
+			<ucf:Qualifier value="20R_ClaimMediaType" change="UNCHANGED"/>
+			<ucf:Value value="2" change="UNCHANGED"/>
+		</hcfd:ClaimNote>
+		<hcfd:ServiceAuthorizationExceptionCode value="6" change="UNCHANGED"/>
+		<hcfd:HealthInformation change="UNCHANGED">
+			<hcfd:PregnancyIndicator value="1" change="UNCHANGED"/>
+			<hcfd:PrincipalDiagnosis change="UNCHANGED">
+				<hcfd:DiagnosisCode value="54544" change="UNCHANGED"/>
+				<hcfd:DiagnosisCodeType value="01" change="UNCHANGED"/>
+			</hcfd:PrincipalDiagnosis>
+			<hcfd:OtherDiagnosis change="UNCHANGED">
+				<hcfd:DiagnosisCode value="5990" change="UNCHANGED"/>
+				<hcfd:DiagnosisCodeType value="01" change="UNCHANGED"/>
+			</hcfd:OtherDiagnosis>
+		</hcfd:HealthInformation>
+		<hcfd:PriorAuthorizationNumber value="1234567" change="UNCHANGED"/>
+		<hcfd:OtherReferenceInfo change="UNCHANGED">
+			<ucf:Qualifier value="LevelOfService" change="UNCHANGED"/>
+			<ucf:Value value="0" change="UNCHANGED"/>
+		</hcfd:OtherReferenceInfo>
+	</echcf:ClaimDetails>
+	<echcf:ClaimDates change="UNCHANGED">
+		<hcfd:ClaimReceivedDate value="2015-02-12" change="UNCHANGED"/>
+		<hcfd:ServiceDates change="UNCHANGED">
+			<ucf:BeginDate value="2015-02-01" change="UNCHANGED"/>
+		</hcfd:ServiceDates>
+	</echcf:ClaimDates>
+	<echcf:ClaimAmounts change="UNCHANGED">
+		<hcfd:CouponInfo change="UNCHANGED">
+			<hcfd:Type value="01" change="UNCHANGED"/>
+			<hcfd:Number value="1A2B3C" change="UNCHANGED"/>
+			<hcfd:Amount value="5.00" change="UNCHANGED"/>
+		</hcfd:CouponInfo>
+		<hcfd:DispensingFeeSubmittedAmount value="12.00" change="UNCHANGED"/>
+		<hcfd:OtherAmount change="UNCHANGED">
+			<ucf:Qualifier value="05" change="UNCHANGED"/>
+			<ucf:Amount value="2.00" change="UNCHANGED"/>
+		</hcfd:OtherAmount>
+		<hcfd:OtherAmount change="UNCHANGED">
+			<ucf:Qualifier value="06" change="UNCHANGED"/>
+			<ucf:Amount value="3.00" change="UNCHANGED"/>
+		</hcfd:OtherAmount>
+		<hcfd:OtherAmount change="UNCHANGED">
+			<ucf:Qualifier value="07" change="UNCHANGED"/>
+			<ucf:Amount value="4.00" change="UNCHANGED"/>
+		</hcfd:OtherAmount>
+		<hcfd:OtherAmount change="UNCHANGED">
+			<ucf:Qualifier value="05" change="UNCHANGED"/>
+			<ucf:Amount value="5.00" change="UNCHANGED"/>
+		</hcfd:OtherAmount>
+		<hcfd:OtherAmount change="UNCHANGED">
+			<ucf:Qualifier value="06" change="UNCHANGED"/>
+			<ucf:Amount value="6.00" change="UNCHANGED"/>
+		</hcfd:OtherAmount>
+		<hcfd:TotalClaimCharge value="500.00" change="UNCHANGED"/>
+		<hcfd:IncentiveAmount value="13.00" change="UNCHANGED"/>
+		<hcfd:IngredientCostSubmitted change="UNCHANGED">
+			<hcfd:Amount value="500.00" change="UNCHANGED"/>
+		</hcfd:IngredientCostSubmitted>
+		<hcfd:PatientPaidAmount value="2.00" change="UNCHANGED"/>
+		<hcfd:UsualCustomaryAmount value="2000.00" change="UNCHANGED"/>
+	</echcf:ClaimAmounts>
+	<echcf:RelatedProvidersInfo change="UNCHANGED">
+		<hcfd:BillingProvider change="UNCHANGED">
+			<ucfd:Name value="Poquoson Pharmacy" change="UNCHANGED"/>
+			<ucfd:LastName value="Poquoson Pharmacy" change="UNCHANGED"/>
+			<ucfd:PrimaryIdentifier change="UNCHANGED">
+				<ucf:Qualifier value="01" change="UNCHANGED"/>
+				<ucf:Identifier value="1234567890" change="UNCHANGED"/>
+			</ucfd:PrimaryIdentifier>
+			<ucfd:AccountIdentifier value="200" change="UNCHANGED"/>
+			<ucfd:TaxID value="EI" change="UNCHANGED"/>
+			<ucfd:AddressInfo change="UNCHANGED">
+				<ucfd:AddressLine1 value="498 Wythe Creek Rd" change="UNCHANGED"/>
+				<ucfd:State value="Poquoson" change="UNCHANGED"/>
+				<ucfd:PostalCode value="VA" change="UNCHANGED"/>
+				<ucfd:Country value="23662" change="UNCHANGED"/>
+			</ucfd:AddressInfo>
+			<ucfd:ContactInfo change="UNCHANGED">
+				<ucfd:CommunicationNumber change="UNCHANGED">
+					<ucf:Qualifier value="1" change="UNCHANGED"/>
+				</ucfd:CommunicationNumber>
+				<ucfd:CommunicationNumber change="UNCHANGED">
+					<ucf:Qualifier value="TE" change="UNCHANGED"/>
+					<ucf:Identifier value="7578687114" change="UNCHANGED"/>
+				</ucfd:CommunicationNumber>
+			</ucfd:ContactInfo>
+			<hcfd:NPI value="1234567890" change="UNCHANGED"/>
+			<hcfd:StateLicenseNumber value="OB" change="UNCHANGED"/>
+			<hcfd:ProviderSpeciality value="0014658815" change="UNCHANGED"/>
+			<hcfd:Location value="1619087251" change="UNCHANGED"/>
+		</hcfd:BillingProvider>
+		<hcfd:RenderingServiceProviderInfo change="UNCHANGED">
+			<ucfd:FirstName value="BRUCE" change="UNCHANGED"/>
+			<ucfd:LastName value="MCEWEN" change="UNCHANGED"/>
+			<ucfd:PrimaryIdentifier change="UNCHANGED">
+				<ucf:Identifier value="1649472515" change="UNCHANGED"/>
+			</ucfd:PrimaryIdentifier>
+			<ucfd:TaxID value="230299000" change="UNCHANGED"/>
+			<ucfd:AddressInfo change="UNCHANGED">
+				<ucfd:AddressLine1 value="370A WYTHE CREEK RD" change="UNCHANGED"/>
+				<ucfd:City value="POQUOSON" change="UNCHANGED"/>
+				<ucfd:State value="VA" change="UNCHANGED"/>
+				<ucfd:PostalCode value="23662" change="UNCHANGED"/>
+			</ucfd:AddressInfo>
+			<ucfd:ContactInfo change="UNCHANGED">
+				<ucfd:CommunicationNumber change="UNCHANGED">
+					<ucf:Qualifier value="PrescriberPhoneNumber" change="UNCHANGED"/>
+					<ucf:Identifier value="7578687709" change="UNCHANGED"/>
+				</ucfd:CommunicationNumber>
+				<ucfd:CommunicationNumber change="UNCHANGED">
+					<ucf:Qualifier value="EXT" change="UNCHANGED"/>
+					<ucf:Identifier value="2" change="UNCHANGED"/>
+				</ucfd:CommunicationNumber>
+			</ucfd:ContactInfo>
+			<hcfd:NPI value="1649472515" change="UNCHANGED"/>
+			<hcfd:StateLicenseNumber value="0104001735" change="UNCHANGED"/>
+		</hcfd:RenderingServiceProviderInfo>
+		<hcfd:ServiceFacilityInfo change="UNCHANGED">
+			<ucfd:PrimaryIdentifier change="UNCHANGED">
+				<ucf:Qualifier value="10R_FacilityID" change="UNCHANGED"/>
+				<ucf:Identifier value="EXT" change="UNCHANGED"/>
+			</ucfd:PrimaryIdentifier>
+			<hcfd:ProviderSpeciality value="01" change="UNCHANGED"/>
+		</hcfd:ServiceFacilityInfo>
+		<hcfd:PrimaryCareProviderInfo change="UNCHANGED">
+			<ucfd:FirstName value="CAREFIRSTNAME" change="UNCHANGED"/>
+			<ucfd:LastName value="CARELASTNAME" change="UNCHANGED"/>
+			<ucfd:PrimaryIdentifier change="UNCHANGED">
+				<ucf:Qualifier value="01" change="UNCHANGED"/>
+				<ucf:Identifier value="1234567777" change="UNCHANGED"/>
+			</ucfd:PrimaryIdentifier>
+		</hcfd:PrimaryCareProviderInfo>
+	</echcf:RelatedProvidersInfo>
+	<echcf:ClaimPricingInfo change="UNCHANGED">
+		<hcfd:PricingMethodology value="00" change="UNCHANGED"/>
+		<hcfd:RejectReasonCode value="A5" change="UNCHANGED"/>
+		<hcfd:OtherCodes change="UNCHANGED">
+			<ucf:Qualifier value="RejectReason" change="UNCHANGED"/>
+			<ucf:Value value="A6" change="UNCHANGED"/>
+			<hcfd:SequenceNumber value="1" change="UNCHANGED"/>
+		</hcfd:OtherCodes>
+		<hcfd:OtherCodes change="UNCHANGED">
+			<ucf:Qualifier value="RejectReason" change="UNCHANGED"/>
+			<ucf:Value value="A7" change="UNCHANGED"/>
+			<hcfd:SequenceNumber value="2" change="UNCHANGED"/>
+		</hcfd:OtherCodes>
+	</echcf:ClaimPricingInfo>
+	<echcf:ClaimCOBInfo change="UNCHANGED">
+		<ucf:Property name="COBLoopType" value="33R" valueType="STRING" change="UNCHANGED"/>
+		<hcfd:ClaimCOBPayerID value="111111111" change="UNCHANGED"/>
+		<hcfd:PayerResponsibilitySequence value="02" change="UNCHANGED"/>
+		<hcfd:OtherSubscriberInfo change="UNCHANGED">
+			<ucfd:FirstName value="TIFFANY" change="UNCHANGED"/>
+			<ucfd:LastName value="WHITE" change="UNCHANGED"/>
+			<ucfd:AddressInfo change="UNCHANGED">
+				<ucfd:AddressLine1 value="404 Cobble Arch" change="UNCHANGED"/>
+				<ucfd:City value="Chesapeake" change="UNCHANGED"/>
+				<ucfd:State value="VA" change="UNCHANGED"/>
+				<ucfd:PostalCode value="23320" change="UNCHANGED"/>
+			</ucfd:AddressInfo>
+			<hcfd:InsuranceInfo change="UNCHANGED">
+				<hcfd:PayerInfo change="UNCHANGED">
+					<ucfd:LastName value="COMMPLAN" change="UNCHANGED"/>
+					<ucfd:PrimaryIdentifier change="UNCHANGED">
+						<ucf:Qualifier value="CommercialPlanCode" change="UNCHANGED"/>
+						<ucf:Identifier value="700012" change="UNCHANGED"/>
+					</ucfd:PrimaryIdentifier>
+				</hcfd:PayerInfo>
+			</hcfd:InsuranceInfo>
+			<hcfd:EnrollmentInfo change="UNCHANGED">
+				<hcfd:PolicyIdentifier value="0000001" change="UNCHANGED"/>
+				<hcfd:GroupName value="COMMPAYER" change="UNCHANGED"/>
+			</hcfd:EnrollmentInfo>
+		</hcfd:OtherSubscriberInfo>
+		<hcfd:OtherPayerInfo change="UNCHANGED">
+			<ucfd:PrimaryIdentifier change="UNCHANGED">
+				<ucf:Qualifier value="01" change="UNCHANGED"/>
+				<ucf:Identifier value="111111111" change="UNCHANGED"/>
+			</ucfd:PrimaryIdentifier>
+		</hcfd:OtherPayerInfo>
+		<hcfd:OtherPayerClaimControlNumber value="123ABC" change="UNCHANGED"/>
+		<hcfd:AdjudicationOrPaymentDate value="2015-02-05" change="UNCHANGED"/>
+		<hcfd:OtherPayerAdjudicationInfo change="UNCHANGED">
+			<hcfd:OtherPayerPaidAmount value="500.00" change="UNCHANGED"/>
+			<hcfd:ClaimAdjustment change="UNCHANGED">
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="05" change="UNCHANGED"/>
+					<hcfd:Amount value="500.00" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+				<hcfd:AdjustmentGroup change="UNCHANGED">
+					<hcfd:ReasonCode value="06" change="UNCHANGED"/>
+					<hcfd:Amount value="500.00" change="UNCHANGED"/>
+				</hcfd:AdjustmentGroup>
+			</hcfd:ClaimAdjustment>
+		</hcfd:OtherPayerAdjudicationInfo>
+	</echcf:ClaimCOBInfo>
+	<echcf:ClaimCOBInfo change="UNCHANGED">
+		<ucf:Property name="COBLoopType" value="32R" valueType="STRING" change="UNCHANGED"/>
+		<hcfd:ClaimCOBPayerID value="222222222" change="UNCHANGED"/>
+		<hcfd:PayerResponsibilitySequence value="03" change="UNCHANGED"/>
+		<hcfd:OtherSubscriberInfo change="UNCHANGED">
+			<ucfd:FirstName value="TIFFANY" change="UNCHANGED"/>
+			<ucfd:LastName value="WHITE" change="UNCHANGED"/>
+			<ucfd:AddressInfo change="UNCHANGED">
+				<ucfd:AddressLine1 value="404 Cobble Arch" change="UNCHANGED"/>
+				<ucfd:City value="Chesapeake" change="UNCHANGED"/>
+				<ucfd:State value="VA" change="UNCHANGED"/>
+				<ucfd:PostalCode value="23320" change="UNCHANGED"/>
+			</ucfd:AddressInfo>
+			<hcfd:InsuranceInfo change="UNCHANGED">
+				<hcfd:PayerInfo change="UNCHANGED">
+					<ucfd:Name value="CAREPLAN" change="UNCHANGED"/>
+					<ucfd:PrimaryIdentifier change="UNCHANGED">
+						<ucf:Qualifier value="MedicarePlanCode" change="UNCHANGED"/>
+						<ucf:Identifier value="7854220" change="UNCHANGED"/>
+					</ucfd:PrimaryIdentifier>
+				</hcfd:PayerInfo>
+			</hcfd:InsuranceInfo>
+			<hcfd:EnrollmentInfo change="UNCHANGED">
+				<hcfd:PolicyIdentifier value="0000002" change="UNCHANGED"/>
+				<hcfd:GroupName value="MEDICAREPAYER" change="UNCHANGED"/>
+			</hcfd:EnrollmentInfo>
+		</hcfd:OtherSubscriberInfo>
+		<hcfd:OtherPayerInfo change="UNCHANGED">
+			<ucfd:PrimaryIdentifier change="UNCHANGED">
+				<ucf:Qualifier value="01" change="UNCHANGED"/>
+				<ucf:Identifier value="222222222" change="UNCHANGED"/>
+			</ucfd:PrimaryIdentifier>
+		</hcfd:OtherPayerInfo>
+		<hcfd:OtherPayerClaimControlNumber value="456DEF" change="UNCHANGED"/>
+		<hcfd:AdjudicationOrPaymentDate value="2015-02-10" change="UNCHANGED"/>
+		<hcfd:OtherPayerAdjudicationInfo change="UNCHANGED">
+			<hcfd:RejectReasonCode value="A5" change="UNCHANGED"/>
+			<hcfd:OtherPayerPaidAmount value="500.00" change="UNCHANGED"/>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="RejectReason" change="UNCHANGED"/>
+				<ucf:Value value="A6" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="1" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="RejectReason" change="UNCHANGED"/>
+				<ucf:Value value="A9" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="2" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+		</hcfd:OtherPayerAdjudicationInfo>
+	</echcf:ClaimCOBInfo>
+	<echcf:ClaimPaymentInfo change="UNCHANGED">
+		<ucf:Property name="CheckPaymentDate" value="20150228" valueType="STRING" change="UNCHANGED"/>
+		<hcfd:PaymentIssueDate value="2015-02-15" change="UNCHANGED"/>
+		<hcfd:SalesTax change="UNCHANGED">
+			<hcfd:Amount value="18.00" change="UNCHANGED"/>
+		</hcfd:SalesTax>
+		<hcfd:CheckorEFTNumber value="9999999" change="UNCHANGED"/>
+		<hcfd:ProductionDate value="2015-02-28" change="UNCHANGED"/>
+		<hcfd:IngredientCostPaid change="UNCHANGED">
+			<hcfd:Amount value="6.00" change="UNCHANGED"/>
+		</hcfd:IngredientCostPaid>
+		<hcfd:TotalClaimPaidAmount value="500.00" change="UNCHANGED"/>
+		<hcfd:PaymentOrAdjudicationDate value="2015-02-15" change="UNCHANGED"/>
+		<hcfd:CoverageExpiryDate value="2015-02-28" change="UNCHANGED"/>
+	</echcf:ClaimPaymentInfo>
+	<echcf:ClaimStatus change="UNCHANGED">
+		<hcfd:CurrentState value="2" change="UNCHANGED"/>
+	</echcf:ClaimStatus>
+	<echcf:ServiceLineInfo change="UNCHANGED">
+		<ucf:Property name="ClaimLineStatus" value="2" valueType="STRING" change="UNCHANGED"/>
+		<hcfd:DURPSInfo change="UNCHANGED">
+			<hcfd:CoAgentInfo change="UNCHANGED">
+				<ucf:Name value="02" change="UNCHANGED"/>
+				<ucf:Value value="000002" change="UNCHANGED"/>
+			</hcfd:CoAgentInfo>
+			<hcfd:CoAgentInfo change="UNCHANGED">
+				<ucf:Name value="03" change="UNCHANGED"/>
+				<ucf:Value value="000003" change="UNCHANGED"/>
+			</hcfd:CoAgentInfo>
+			<hcfd:CoAgentInfo change="UNCHANGED">
+				<ucf:Name value="04" change="UNCHANGED"/>
+				<ucf:Value value="000004" change="UNCHANGED"/>
+			</hcfd:CoAgentInfo>
+			<hcfd:ReasonForServiceCode value="HD" change="UNCHANGED"/>
+			<hcfd:Message value="PLIVA INC" change="UNCHANGED"/>
+			<hcfd:ProfessionalServiceCode value="MA" change="UNCHANGED"/>
+			<hcfd:ResultOfServiceCode value="1B" change="UNCHANGED"/>
+			<hcfd:LevelOfEffort value="11" change="UNCHANGED"/>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ReasonForServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="DA" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="1" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ReasonForServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="DC" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="2" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ReasonForServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="DD" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="3" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ReasonForServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="ER" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="4" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ReasonForServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="ID" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="5" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ReasonForServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="LD" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="6" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ReasonForServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="LR" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="7" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ReasonForServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="MX" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="8" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ProfessionalServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="MR" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="1" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ProfessionalServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="PE" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="2" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ProfessionalServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="PH" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="3" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ProfessionalServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="PM" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="4" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ProfessionalServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="RT" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="5" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ProfessionalServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="SC" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="6" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ProfessionalServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="SW" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="7" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ProfessionalServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="TH" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="8" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ResultOfServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="1A" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="1" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ResultOfServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="1C" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="2" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ResultOfServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="1D" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="3" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ResultOfServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="1E" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="4" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ResultOfServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="1F" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="5" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ResultOfServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="1G" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="6" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ResultOfServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="1H" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="7" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="ResultOfServiceCode" change="UNCHANGED"/>
+				<ucf:Value value="1J" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="8" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="LevelOfEffort" change="UNCHANGED"/>
+				<ucf:Value value="12" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="1" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+			<hcfd:OtherCodes change="UNCHANGED">
+				<ucf:Qualifier value="LevelOfEffort" change="UNCHANGED"/>
+				<ucf:Value value="13" change="UNCHANGED"/>
+				<hcfd:SequenceNumber value="2" change="UNCHANGED"/>
+			</hcfd:OtherCodes>
+		</hcfd:DURPSInfo>
+		<hcfd:ClaimProcessorServiceLineID value="1" change="UNCHANGED"/>
+		<hcfd:AssignedNumber value="1" change="UNCHANGED"/>
+		<hcfd:LineItemControlNumber value="1" change="UNCHANGED"/>
+		<hcfd:ServiceInfo change="UNCHANGED">
+			<hcfd:ServiceCodeInfo change="UNCHANGED">
+				<hcfd:Qualifier value="03" change="UNCHANGED"/>
+				<hcfd:Value value="50111033401" change="UNCHANGED"/>
+				<hcfd:Description value="METRONIDAZOLE" change="UNCHANGED"/>
+			</hcfd:ServiceCodeInfo>
+			<hcfd:LineChargeAmount value="500.00" change="UNCHANGED"/>
+		</hcfd:ServiceInfo>
+		<hcfd:DrugInfo change="UNCHANGED">
+			<hcfd:AssociatedPrescription change="UNCHANGED">
+				<hcfd:SchedulePrescriptionIDNumber value="1" change="UNCHANGED"/>
+				<hcfd:WrittenDate value="2016-10-10" change="UNCHANGED"/>
+			</hcfd:AssociatedPrescription>
+			<hcfd:Compound change="UNCHANGED">
+				<ucf:Property name="ClientFormularyFlag" value="CLIENTFORMULARYNODE" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundProductServiceName" value="PRODUCTSERVICE" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="GenericName" value="NAME" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="ProductStrength" value="STRENGTH" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="DatabaseIndicator" value="DBINDICATOR" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="DrugType" value="01" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FormularyStatus" value="CoumpoundFormularyStatus" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="DrugCategoryCode" value="CompoundDrugCategoryCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FederalDeaSchedule" value="CompoundFederalDeaSchedule" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FdaEfficacyCode" value="CompoundFdaEfficacyCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FederalUpperLimitIndicator" value="CompoundFederalUpperLimitIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundSpecialPackagingIndicator" value="40C_CompoundSpecialPackagingIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundUnitOfMeasure" value="40C_CompoundUnitOfMeasure" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundProcessorPriorAuthReasonCode" value="40C_CompoundProcessorPriorAuthReasonCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundMacReducedIndicator" value="40C_CompoundMacReducedIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundClientPricingBasisofCost" value="40C_CompoundClientPricingBasisofCost" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundDurCoAgentIdQualifier" value="40C_CompoundDurCoAgentIdQualifier" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundDurCoAgentId" value="40C_CompoundDurCoAgentId" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundGenericIndicator" value="40C_CompoundGenericIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundPlanCutbackReasonCode" value="40C_CompoundPlanCutbackReasonCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundAvgCostPerQuantityUnitPrice" value="40C_CompoundAvgCostPerQuantityUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundAvgGenericUnitPrice" value="40C_CompoundAvgGenericUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundAvgWholesaleUnitPrice" value="40C_CompoundAvgWholesaleUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundFederalUpperLimitUnitPrice" value="40C_CompoundFederalUpperLimitUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundMacPrice" value="40C_CompoundMacPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundBasisReimbursementDetermination" value="40C_CompoundBasisReimbursementDetermination" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundPatientFormularyRebateAmount" value="40C_CompoundPatientFormularyRebateAmount" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler1" value="40C_Filler_1" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler2" value="40C_Filler_2" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler3" value="40C_Filler_3" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler4" value="40C_Filler_4" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler5" value="40C_Filler_5" valueType="STRING" change="UNCHANGED"/>
+				<hcfd:CompoundDosageForm value="03" change="UNCHANGED"/>
+				<hcfd:CompoundDispensingUnitFormIndicator value="1" change="UNCHANGED"/>
+				<hcfd:ServiceCodeInfo change="UNCHANGED">
+					<hcfd:Qualifier value="03" change="UNCHANGED"/>
+					<hcfd:Value value="01" change="UNCHANGED"/>
+				</hcfd:ServiceCodeInfo>
+				<hcfd:ServiceUnitCount value="11212" change="UNCHANGED"/>
+				<hcfd:IngredientCostAmount value="10.00" change="UNCHANGED"/>
+				<hcfd:IngredientCostBasis value="10" change="UNCHANGED"/>
+				<hcfd:TherapeuticInfo change="UNCHANGED">
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="CompoundTherapeuticCodeQualifier_1" change="UNCHANGED"/>
+						<ucf:Value value="CompoundTherapeuticClassCode_1" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="CompoundTherapeuticCodeQualifier_2" change="UNCHANGED"/>
+						<ucf:Value value="CompoundTherapeuticClassCode_2" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_3" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_3" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_4" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_4" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticChapter value="40C_CompoundTherapeuticChapter" change="UNCHANGED"/>
+				</hcfd:TherapeuticInfo>
+			</hcfd:Compound>
+			<hcfd:Compound change="UNCHANGED">
+				<ucf:Property name="ClientFormularyFlag" value="FLAG" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundProductServiceName" value="PRODUCT" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="GenericName" value="NAME" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="ProductStrength" value="40C_CompoundProductStrength" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="DatabaseIndicator" value="COMP" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="DrugType" value="TYPE" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FormularyStatus" value="STATUS" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="DrugCategoryCode" value="40C_CompoundDrugCategoryCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FederalDeaSchedule" value="40C_CompoundFederalDeaSchedule" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FdaEfficacyCode" value="40C_CompoundFdaEfficacyCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FederalUpperLimitIndicator" value="40C_CompoundFederalUpperLimitIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundSpecialPackagingIndicator" value="40C_CompoundSpecialPackagingIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundUnitOfMeasure" value="40C_CompoundUnitOfMeasure" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundProcessorPriorAuthReasonCode" value="40C_CompoundProcessorPriorAuthReasonCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundMacReducedIndicator" value="40C_CompoundMacReducedIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundClientPricingBasisofCost" value="40C_CompoundClientPricingBasisofCost" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundDurCoAgentIdQualifier" value="40C_CompoundDurCoAgentIdQualifier" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundDurCoAgentId" value="40C_CompoundDurCoAgentId" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundGenericIndicator" value="40C_CompoundGenericIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundPlanCutbackReasonCode" value="40C_CompoundPlanCutbackReasonCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundAvgCostPerQuantityUnitPrice" value="40C_CompoundAvgCostPerQuantityUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundAvgGenericUnitPrice" value="40C_CompoundAvgGenericUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundAvgWholesaleUnitPrice" value="40C_CompoundAvgWholesaleUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundFederalUpperLimitUnitPrice" value="40C_CompoundFederalUpperLimitUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundMacPrice" value="40C_CompoundMacPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundBasisReimbursementDetermination" value="40C_CompoundBasisReimbursementDetermination" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundPatientFormularyRebateAmount" value="40C_CompoundPatientFormularyRebateAmount" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler1" value="40C_Filler_1" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler2" value="40C_Filler_2" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler3" value="40C_Filler_3" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler4" value="40C_Filler_4" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler5" value="40C_Filler_5" valueType="STRING" change="UNCHANGED"/>
+				<hcfd:CompoundDosageForm value="03" change="UNCHANGED"/>
+				<hcfd:CompoundDispensingUnitFormIndicator value="1" change="UNCHANGED"/>
+				<hcfd:ServiceCodeInfo change="UNCHANGED">
+					<hcfd:Qualifier value="03" change="UNCHANGED"/>
+					<hcfd:Value value="02" change="UNCHANGED"/>
+				</hcfd:ServiceCodeInfo>
+				<hcfd:ServiceUnitCount value="124564" change="UNCHANGED"/>
+				<hcfd:IngredientCostAmount value="10.00" change="UNCHANGED"/>
+				<hcfd:IngredientCostBasis value="10" change="UNCHANGED"/>
+				<hcfd:TherapeuticInfo change="UNCHANGED">
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_1" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_1" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_2" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_2" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_3" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_3" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_4" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_4" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticChapter value="40C_CompoundTherapeuticChapter" change="UNCHANGED"/>
+				</hcfd:TherapeuticInfo>
+			</hcfd:Compound>
+			<hcfd:Compound change="UNCHANGED">
+				<ucf:Property name="ClientFormularyFlag" value="FORMULARY" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundProductServiceName" value="SERVICENAME" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="GenericName" value="NAME" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="ProductStrength" value="40C_CompoundProductStrength" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="DatabaseIndicator" value="40C_CompoundDatabaseIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="DrugType" value="40C_CompoundDrugType" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FormularyStatus" value="40C_CoumpoundFormularyStatus" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="DrugCategoryCode" value="40C_CompoundDrugCategoryCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FederalDeaSchedule" value="40C_CompoundFederalDeaSchedule" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FdaEfficacyCode" value="40C_CompoundFdaEfficacyCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FederalUpperLimitIndicator" value="40C_CompoundFederalUpperLimitIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundSpecialPackagingIndicator" value="40C_CompoundSpecialPackagingIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundUnitOfMeasure" value="40C_CompoundUnitOfMeasure" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundProcessorPriorAuthReasonCode" value="40C_CompoundProcessorPriorAuthReasonCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundMacReducedIndicator" value="40C_CompoundMacReducedIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundClientPricingBasisofCost" value="40C_CompoundClientPricingBasisofCost" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundDurCoAgentIdQualifier" value="40C_CompoundDurCoAgentIdQualifier" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundDurCoAgentId" value="40C_CompoundDurCoAgentId" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundGenericIndicator" value="40C_CompoundGenericIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundPlanCutbackReasonCode" value="40C_CompoundPlanCutbackReasonCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundAvgCostPerQuantityUnitPrice" value="40C_CompoundAvgCostPerQuantityUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundAvgGenericUnitPrice" value="40C_CompoundAvgGenericUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundAvgWholesaleUnitPrice" value="40C_CompoundAvgWholesaleUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundFederalUpperLimitUnitPrice" value="40C_CompoundFederalUpperLimitUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundMacPrice" value="40C_CompoundMacPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundBasisReimbursementDetermination" value="40C_CompoundBasisReimbursementDetermination" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundPatientFormularyRebateAmount" value="40C_CompoundPatientFormularyRebateAmount" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler1" value="40C_Filler_1" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler2" value="40C_Filler_2" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler3" value="40C_Filler_3" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler4" value="40C_Filler_4" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler5" value="40C_Filler_5" valueType="STRING" change="UNCHANGED"/>
+				<hcfd:CompoundDosageForm value="03" change="UNCHANGED"/>
+				<hcfd:CompoundDispensingUnitFormIndicator value="1" change="UNCHANGED"/>
+				<hcfd:ServiceCodeInfo change="UNCHANGED">
+					<hcfd:Qualifier value="03" change="UNCHANGED"/>
+					<hcfd:Value value="03" change="UNCHANGED"/>
+				</hcfd:ServiceCodeInfo>
+				<hcfd:ServiceUnitCount value="123456" change="UNCHANGED"/>
+				<hcfd:IngredientCostAmount value="10.00" change="UNCHANGED"/>
+				<hcfd:IngredientCostBasis value="10" change="UNCHANGED"/>
+				<hcfd:TherapeuticInfo change="UNCHANGED">
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_1" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_1" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_2" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_2" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_3" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_3" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_4" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_4" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticChapter value="40C_CompoundTherapeuticChapter" change="UNCHANGED"/>
+				</hcfd:TherapeuticInfo>
+			</hcfd:Compound>
+			<hcfd:Compound change="UNCHANGED">
+				<ucf:Property name="ClientFormularyFlag" value="40C_CompoundClientFormularyFlag" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundProductServiceName" value="40C_CompoundProductServiceName" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="GenericName" value="40C_CompoundGenericName" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="ProductStrength" value="40C_CompoundProductStrength" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="DatabaseIndicator" value="40C_CompoundDatabaseIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="DrugType" value="40C_CompoundDrugType" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FormularyStatus" value="40C_CoumpoundFormularyStatus" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="DrugCategoryCode" value="40C_CompoundDrugCategoryCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FederalDeaSchedule" value="40C_CompoundFederalDeaSchedule" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FdaEfficacyCode" value="40C_CompoundFdaEfficacyCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FederalUpperLimitIndicator" value="40C_CompoundFederalUpperLimitIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundSpecialPackagingIndicator" value="40C_CompoundSpecialPackagingIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundUnitOfMeasure" value="40C_CompoundUnitOfMeasure" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundProcessorPriorAuthReasonCode" value="40C_CompoundProcessorPriorAuthReasonCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundMacReducedIndicator" value="40C_CompoundMacReducedIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundClientPricingBasisofCost" value="40C_CompoundClientPricingBasisofCost" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundDurCoAgentIdQualifier" value="40C_CompoundDurCoAgentIdQualifier" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundDurCoAgentId" value="40C_CompoundDurCoAgentId" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundGenericIndicator" value="40C_CompoundGenericIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundPlanCutbackReasonCode" value="40C_CompoundPlanCutbackReasonCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundAvgCostPerQuantityUnitPrice" value="40C_CompoundAvgCostPerQuantityUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundAvgGenericUnitPrice" value="40C_CompoundAvgGenericUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundAvgWholesaleUnitPrice" value="40C_CompoundAvgWholesaleUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundFederalUpperLimitUnitPrice" value="40C_CompoundFederalUpperLimitUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundMacPrice" value="40C_CompoundMacPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundBasisReimbursementDetermination" value="40C_CompoundBasisReimbursementDetermination" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundPatientFormularyRebateAmount" value="40C_CompoundPatientFormularyRebateAmount" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler1" value="40C_Filler_1" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler2" value="40C_Filler_2" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler3" value="40C_Filler_3" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler4" value="40C_Filler_4" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler5" value="40C_Filler_5" valueType="STRING" change="UNCHANGED"/>
+				<hcfd:CompoundDosageForm value="03" change="UNCHANGED"/>
+				<hcfd:CompoundDispensingUnitFormIndicator value="1" change="UNCHANGED"/>
+				<hcfd:ServiceCodeInfo change="UNCHANGED">
+					<hcfd:Qualifier value="03" change="UNCHANGED"/>
+					<hcfd:Value value="04" change="UNCHANGED"/>
+				</hcfd:ServiceCodeInfo>
+				<hcfd:ServiceUnitCount value="12456" change="UNCHANGED"/>
+				<hcfd:IngredientCostAmount value="10.00" change="UNCHANGED"/>
+				<hcfd:IngredientCostBasis value="10" change="UNCHANGED"/>
+				<hcfd:TherapeuticInfo change="UNCHANGED">
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_1" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_1" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_2" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_2" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_3" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_3" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_4" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_4" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticChapter value="40C_CompoundTherapeuticChapter" change="UNCHANGED"/>
+				</hcfd:TherapeuticInfo>
+			</hcfd:Compound>
+			<hcfd:Compound change="UNCHANGED">
+				<ucf:Property name="ClientFormularyFlag" value="40C_CompoundClientFormularyFlag" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundProductServiceName" value="40C_CompoundProductServiceName" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="GenericName" value="40C_CompoundGenericName" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="ProductStrength" value="40C_CompoundProductStrength" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="DatabaseIndicator" value="40C_CompoundDatabaseIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="DrugType" value="40C_CompoundDrugType" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FormularyStatus" value="40C_CoumpoundFormularyStatus" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="DrugCategoryCode" value="40C_CompoundDrugCategoryCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FederalDeaSchedule" value="40C_CompoundFederalDeaSchedule" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FdaEfficacyCode" value="40C_CompoundFdaEfficacyCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="FederalUpperLimitIndicator" value="40C_CompoundFederalUpperLimitIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundSpecialPackagingIndicator" value="40C_CompoundSpecialPackagingIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundUnitOfMeasure" value="40C_CompoundUnitOfMeasure" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundProcessorPriorAuthReasonCode" value="40C_CompoundProcessorPriorAuthReasonCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundMacReducedIndicator" value="40C_CompoundMacReducedIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundClientPricingBasisofCost" value="40C_CompoundClientPricingBasisofCost" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundDurCoAgentIdQualifier" value="40C_CompoundDurCoAgentIdQualifier" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundDurCoAgentId" value="40C_CompoundDurCoAgentId" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundGenericIndicator" value="40C_CompoundGenericIndicator" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundPlanCutbackReasonCode" value="40C_CompoundPlanCutbackReasonCode" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundAvgCostPerQuantityUnitPrice" value="40C_CompoundAvgCostPerQuantityUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundAvgGenericUnitPrice" value="40C_CompoundAvgGenericUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundAvgWholesaleUnitPrice" value="40C_CompoundAvgWholesaleUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundFederalUpperLimitUnitPrice" value="40C_CompoundFederalUpperLimitUnitPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundMacPrice" value="40C_CompoundMacPrice" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundBasisReimbursementDetermination" value="40C_CompoundBasisReimbursementDetermination" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="CompoundPatientFormularyRebateAmount" value="40C_CompoundPatientFormularyRebateAmount" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler1" value="40C_Filler_1" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler2" value="40C_Filler_2" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler3" value="40C_Filler_3" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler4" value="40C_Filler_4" valueType="STRING" change="UNCHANGED"/>
+				<ucf:Property name="Filler5" value="40C_Filler_5" valueType="STRING" change="UNCHANGED"/>
+				<hcfd:CompoundDosageForm value="03" change="UNCHANGED"/>
+				<hcfd:CompoundDispensingUnitFormIndicator value="1" change="UNCHANGED"/>
+				<hcfd:ServiceCodeInfo change="UNCHANGED">
+					<hcfd:Qualifier value="03" change="UNCHANGED"/>
+					<hcfd:Value value="05" change="UNCHANGED"/>
+				</hcfd:ServiceCodeInfo>
+				<hcfd:ServiceUnitCount value="1234578" change="UNCHANGED"/>
+				<hcfd:IngredientCostAmount value="10.00" change="UNCHANGED"/>
+				<hcfd:IngredientCostBasis value="10" change="UNCHANGED"/>
+				<hcfd:TherapeuticInfo change="UNCHANGED">
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_1" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_1" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_2" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_2" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_3" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_3" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticClass change="UNCHANGED">
+						<ucf:Qualifier value="40C_CompoundTherapeuticCodeQualifier_4" change="UNCHANGED"/>
+						<ucf:Value value="40C_CompoundTherapeuticClassCode_4" change="UNCHANGED"/>
+					</hcfd:TherapeuticClass>
+					<hcfd:TherapeuticChapter value="40C_CompoundTherapeuticChapter" change="UNCHANGED"/>
+				</hcfd:TherapeuticInfo>
+			</hcfd:Compound>
+			<hcfd:DrugCode value="50111033401" change="UNCHANGED"/>
+			<hcfd:UnitCount value="30" change="UNCHANGED"/>
+			<hcfd:UnitOfMeasurement value="EA" change="UNCHANGED"/>
+			<hcfd:Prescription change="UNCHANGED">
+				<ucf:Property name="RouteOfAdministration" value="26643008" valueType="STRING" change="UNCHANGED"/>
+				<hcfd:CompoundCode value="2" change="UNCHANGED"/>
+				<hcfd:DispenseAsWritten value="1" change="UNCHANGED"/>
+				<hcfd:NumberOfRefills value="2" change="UNCHANGED"/>
+				<hcfd:OriginCode value="3" change="UNCHANGED"/>
+				<hcfd:OriginalDrugCount value="30" change="UNCHANGED"/>
+				<hcfd:WrittenDate value="2015-01-31" change="UNCHANGED"/>
+			</hcfd:Prescription>
+			<hcfd:RefillDetails change="UNCHANGED">
+				<hcfd:ClarificationCode value="9" change="UNCHANGED"/>
+				<hcfd:DaysSupply value="30" change="UNCHANGED"/>
+				<hcfd:DispensingStatus value="P" change="UNCHANGED"/>
+				<hcfd:FillNumber value="0" change="UNCHANGED"/>
+				<hcfd:IntendedDaysSupply value="30" change="UNCHANGED"/>
+				<hcfd:IntendedQuantity value="24" change="UNCHANGED"/>
+				<hcfd:SpecialPackagingIndicator value="5" change="UNCHANGED"/>
+				<hcfd:OtherCodes change="UNCHANGED">
+					<ucf:Qualifier value="SubmissionClarification" change="UNCHANGED"/>
+					<ucf:Value value="9" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="1" change="UNCHANGED"/>
+				</hcfd:OtherCodes>
+				<hcfd:OtherCodes change="UNCHANGED">
+					<ucf:Qualifier value="SubmissionClarification" change="UNCHANGED"/>
+					<ucf:Value value="9" change="UNCHANGED"/>
+					<hcfd:SequenceNumber value="2" change="UNCHANGED"/>
+				</hcfd:OtherCodes>
+			</hcfd:RefillDetails>
+			<hcfd:GenericInfo change="UNCHANGED">
+				<hcfd:GenericIndicator value="true" change="UNCHANGED"/>
+			</hcfd:GenericInfo>
+		</hcfd:DrugInfo>
+		<hcfd:SubmittedServiceLineID value="1" change="UNCHANGED"/>
+		<hcfd:ServicePaymentHistory change="UNCHANGED">
+			<hcfd:ServiceLineID value="1" change="UNCHANGED"/>
+			<hcfd:ClaimProcessorLineSequence value="1" change="UNCHANGED"/>
+			<hcfd:LinePaidAmount value="500.00" change="UNCHANGED"/>
+		</hcfd:ServicePaymentHistory>
+	</echcf:ServiceLineInfo>
+</echcf:Claim>

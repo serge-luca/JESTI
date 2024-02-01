@@ -1,0 +1,17 @@
+#********** Example **************************************************************
+#*1,DIP
+#+-
+#/echcf\:Claim[1]/echcf\:SubscriberInfo[1]/ucfd\:FirstName[1]/@value=POSHELnahren
+#/echcf\:Claim[1]/echcf\:SubscriberInfo[1]/ucfd\:LastName[1]/@value={}  {}								=> ca sa indicam 'Space'
+#-
+#/echcf\:Claim[1]/echcf\:SubscriberInfo[1]/ucfd\:FirstName[1]/@value=POSHELnahren
+#*2,R
+#+++-
+
+#*********************************************************************************
+
+*184537,R
+-
+/echcf\:Claim[1]/echcf\:PatientInfo[1]/hcfd\:EnrollmentInfo[1]/hcfd\:GroupIdentifier[1]/@value=
+-
+/echcf\:Claim[1]/echcf\:PatientInfo[1]/hcfd\:EnrollmentInfo[1]/hcfd\:GroupIdentifier[1]/@value={}   {}
